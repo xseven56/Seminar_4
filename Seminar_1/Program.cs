@@ -54,44 +54,44 @@ Console.WriteLine("Hello, World!");
 
 
 // Задание №1.1
-Console.WriteLine ("Введите первое число ");
-int Number1 = Convert.ToInt32 (Console.ReadLine ());
-Console.WriteLine ("Введите второе число ");
-int Number2 = Convert.ToInt32 (Console.ReadLine());
-if (Number1 > Number2)
-{
-    Console.WriteLine("Первое число больше второго");
-}
-else if (Number1<Number2)
-{
-    Console.WriteLine ("Первое число меньше второго");
-}
-else
-{
-    Console.WriteLine ("Оба числа равны");
-}
-
-// Задание № 1.2
-
 // Console.WriteLine ("Введите первое число ");
 // int Number1 = Convert.ToInt32 (Console.ReadLine ());
 // Console.WriteLine ("Введите второе число ");
 // int Number2 = Convert.ToInt32 (Console.ReadLine());
-// Console.WriteLine ("Введите третье число");
-// int Number3 = Convert.ToInt32 (Console.ReadLine ());
-// if (Number1 > Number2 && Number3 < Number1)
+// if (Number1 > Number2)
 // {
-//     Console.WriteLine("Первое число " + Number1 + " самое большое");
+//     Console.WriteLine("Первое число больше второго");
 // }
-// else if (Number2>Number1 && Number3<Number2)
+// else if (Number1<Number2)
 // {
-//     Console.WriteLine ("второе число " + Number2 + " самое большое");
-// }
-// else if (Number3>Number1 && Number2<Number3)
-// {
-//     Console.WriteLine ("третье число " + Number3 + " самое большое");
+//     Console.WriteLine ("Первое число меньше второго");
 // }
 // else
 // {
-//     Console.WriteLine ("все числа равны");
+//     Console.WriteLine ("Оба числа равны");
 // }
+
+// Задание № 1.2
+
+Console.WriteLine ("Введите первое число ");
+int Number1 = Convert.ToInt32 (Console.ReadLine ());
+Console.WriteLine ("Введите второе число ");
+int Number2 = Convert.ToInt32 (Console.ReadLine());
+Console.WriteLine ("Введите третье число");
+int Number3 = Convert.ToInt32 (Console.ReadLine ());
+if (Number1 > Number2 && Number3 < Number1)
+{
+    Console.WriteLine("Первое число " + Number1 + " самое большое");
+}
+else if (Number2>Number1 && Number3<Number2)
+{
+    Console.WriteLine ("второе число " + Number2 + " самое большое");
+}
+else if (Number3>Number1 && Number2<Number3)
+{
+    Console.WriteLine ("третье число " + Number3 + " самое большое");
+}
+else
+{
+    Console.WriteLine ("все числа равны");
+}
